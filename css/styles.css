@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+.container {
+	background-color: rgb(240, 236, 236);
+	border-top: 4px solid rgba(253, 96, 38, 0.865);
+}
+.profile > h5 {
+	font-size: 16px;
+	color: rgba(246, 110, 60, 0.855);
+}
+.image1 {
+	width: 200px;
+}
+.para1 {
+	color: grey;
+}
+.para2 {
+	color: grey;
+	font-size: 13px;
+}
+.we {
+	font-size: 17px;
+	margin-bottom: 0;
+}
+.html {
+	width: 63%;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	color: grey;
+}
+.css {
+	width: 90%;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	color: grey;
+}
+.php {
+	width: 75%;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	color: grey;
+}
+.js {
+	width: 55%;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	color: grey;
+}
+.ill {
+	width: 50%;
+	border-bottom: 2px solid orangered;
+	position: relative;
+	color: grey;
+}
+.percent {
+	width: 28px;
+	height: 14px;
+	background-color: black;
+	position: absolute;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	right: -28px;
+	margin-top: 10px;
+}
+.mp {
+	width: 25px;
+	margin-right: 20px;
+}
+ .portfolio{
+	width:250px;
+	/* height: 250px; */
+}
+.btn{
+	width: 150px;
+	height: 40px;
+	background-color: orangered;
+	color: #fff;
+}
+.portfolio:hover{
+	transform:scale(2);
+
+}
+@media screen and (max-width: 576px) {
+	.image1 {
+		width: 200px;
+		margin: 30px auto;
+		text-align: none;
+	}
+	.tr {
+		text-align: left;
+		font-size: 20px;
+		color: grey;
+	}
+	.dt {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.work1{
+		margin-bottom: 20px;
+	}
+}
